@@ -164,9 +164,6 @@ $.get(endpoint)
 ;
 ```
 
-## Independent Practice
-We will be using our new AJAX skills in this afternoon's labs.
-
 ## Closing Thoughts
 - AJAX is how we can make HTTP requests to an API without refreshing the page using JavaScript
 - jQuery gives us some helper methods to make this easier

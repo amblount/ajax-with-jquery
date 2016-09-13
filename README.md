@@ -35,7 +35,7 @@ A **GUI** exists to make an application more convenient for the user. An **API**
 
 ## About Ajax
 
-Asynchronous JavaScript And XML (Ajax) allows us to make requests to a server (ours or another application's) without refreshing the page. You may also hear the term `XMLHttpRequest`. This is the same thing as Ajax! In fact, `window` object in the Browser has available to it another object, `XMLHttpRequest`. This is how you would make these types of requests without using jQuery.
+Asynchronous JavaScript And XML (Ajax) allows us to make requests to a server (ours or another application's) without refreshing the page. You may also hear the term [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest). This is the same thing as Ajax! In fact, `window` object in the Browser has available to it another object, `XMLHttpRequest`. This is how you would make these types of requests without using jQuery.
 
 Ajax lets us exchange data with the server behind the scenes. When a change is made on the client we can send off an Ajax Request to notify the server of what just happened. This is an important way to maintain state between a client and a server that communicate in HTTP, an inherently stateless protocol.
 

@@ -171,4 +171,5 @@ $.get(endpoint)
 - Describe a use case of AJAX using a specific example
 
 ## Additional Resources
+- [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 - What is [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)?

@@ -21,7 +21,7 @@ Credit: https://github.com/sf-wdi-26/modules/tree/master/w02/d04/m3-ajax
 ## Where should we be now?
 *Before this workshop, developers should already be able to:*
 
-- Make HTTP requests using `curl` and the browser
+- Make HTTP requests using [`curl`](https://curl.haxx.se/docs/manpage.html) and the browser
 - Create dynamic web pages using JavaScript, HTML and CSS
 
 ## APIs

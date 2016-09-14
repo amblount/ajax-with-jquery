@@ -84,17 +84,17 @@ If we're doing a simple `GET` request, we can (and should) avoid the `$.ajax()` 
 
 ```js
 var endpoint = 'https://api.spotify.com/v1/artists/1jTAvg7eLZQFonjWIXHiiT';
-$.get(endpoint, function(response_data) {
+$.get(endpoint, function(responseData) {
   // creating a global variable to inspect the new data is good
   // just remember to make it local once your done inspecting!
-  window.newData = response_data;
+  window.newData = responseData;
 });
 ```
 
 For a `POST` request, we can also use the `$.ajax()` method, but this time, the data type is `"POST"`. Since `POST` requests send data to a server, we also need to send an object of data (the `book`).
 
 ```js
-var book_data = {
+var bookData = {
   title: "The Giver",
   author: "Lowis Lowry"
 };
@@ -102,7 +102,7 @@ var book_data = {
 $.ajax({
   type: "POST",
   url: "/books", // this is a "relative" link
-  data: book_data,
+  data: bookData,
   dataType: "json",
   success: function(data) {
     console.log(data);
@@ -113,12 +113,12 @@ $.ajax({
 Just like with `GET`, the `POST` request above can be refactored to use the much simpler `$.post()` method. We pass in the request URL, data, and callback function. Note: there is an equivalent [`$.get()`](https://api.jquery.com/jquery.get/) method as well.
 
 ```js
-var book_data = {
+var bookData = {
   title: "The Giver",
   author: "Lowis Lowry"
 };
 
-$.post('/books', book_data, function(data) {
+$.post('/books', bookData, function(data) {
   console.log(data);
 });
 ```
